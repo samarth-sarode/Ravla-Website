@@ -1,0 +1,195 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.nav-link{
+    color: #222222 !important;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.nav-link:hover{
+    color: #222222 !important;
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
+
+.navbar-nav-direction{
+    flex-direction: row-reverse;
+}
+
+.f-info{
+    color: #222222;
+    /* font-size: 1.5rem; */
+    height: 8rem;
+    display: flex;
+    background-color: #ded9d9;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* text-align: center; */
+    /* align-items: ; */
+    /* flex-direction: column; */
+    
+    align-content: space-evenly;
+    align-items: space-evenly;
+}
+
+.container{
+    flex: 1;
+}
+
+.navbar-brand img{
+    height: 4rem;
+}
+
+.d-block{
+    height: 35rem !important; 
+
+}
+
+.footer-icons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.footer-icons div {
+    font-size: 1.2rem;
+}
+
+.footer-icons div:hover {
+    font-size: 1.3rem;
+}
+
+.footer-icons div a{
+    color: #222222;
+    text-decoration: none;
+}
+
+.footer-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    font-size: 1.8rem;
+    
+}
+
+.company-info p{
+    font-size: 1.5rem;
+    text-align: justify;
+    /* justify-content: space-around; */
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2) , 0 6px 20px 0 rgba(0,0,0,0.19) !important;
+    background-color: white !important;
+    border-radius: 2rem;
+    /* margin: 1rem; */
+    /* width: fit-content; */
+}
+
+.card-style{
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-img{
+    height: 20rem;
+    width: 100%;
+    /* border-radius: 2rem; */
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.product-title{
+    text-align: center;
+    color: #222222;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-img{
+    background:url('../Images/About/img.jpg');
+    height: 100vh;
+    width: auto;
+    position: relative;
+}
+
+.about-title{
+    color: black;
+    text-align: center;
+    /* align-items: center; */
+
+}
+
+.about-vision{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.center-bt{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.container-md{
+    color: black;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* .choose-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
+     width: 100%;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+.choose-text-items{
+    width: 100%;
+    width: 80rem; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
+
+.choose-text-items{
+    text-align: center;
+    align-items: center;
+    /* font-size: 1.1rem; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
