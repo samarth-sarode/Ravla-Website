@@ -14,22 +14,22 @@ app.use(express.static(path.join(__dirname , "/Public")));
 
 
 app.get("/home" , (req , res) => {
-    res.render("home.ejs");
+    res.render("home");
 });
 
 
 app.get("/about" , (req , res) => {
-    res.render("about.ejs");
+    res.render("about");
 });
 
 
 app.get("/products" , (req , res) => {
-    res.render("products.ejs");
+    res.render("products");
 });
 
 
 app.get("/contacts" , (req , res) => {
-    res.render("contacts.ejs");
+    res.render("contacts");
 });
 
 
