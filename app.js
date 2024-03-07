@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname , "/Public")));
 
 
 
-app.get("/" , (req , res) => {
+app.get("/home" , (req , res) => {
     res.render("home.ejs");
 });
 
