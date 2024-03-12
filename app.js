@@ -8,28 +8,28 @@ const ejsMate = require("ejs-mate");
 app.set("view engine" , "ejs");
 app.set("Views" , path.join(__dirname , "Views"));
 app.engine("ejs" , ejsMate);
-app.use(express.static(path.join(__dirname , "/Public")));
+app.use(express.static(path.join(__dirname , "Public")));
 
 
 
 
 app.get("/home" , (req , res) => {
-    res.render("home");
+    res.render("home.ejs");
 });
 
 
 app.get("/about" , (req , res) => {
-    res.render("about");
+    res.render("about.ejs");
 });
 
 
 app.get("/products" , (req , res) => {
-    res.render("products");
+    res.render("products.ejs");
 });
 
 
 app.get("/contacts" , (req , res) => {
-    res.render("contacts");
+    res.render("contacts.ejs");
 });
 
 
